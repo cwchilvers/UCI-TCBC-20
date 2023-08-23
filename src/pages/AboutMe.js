@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../styles/AboutMe.sass";
 import Header from "../components/Header";
 import Title from "../components/Title";
@@ -8,6 +9,9 @@ import johnDoe from "../assets/images/john-doe.jpeg";
 function AboutMe () {
     return (
         <div className="about-me">
+            <Helmet>
+                <title>John Doe | About Me</title> {/* Set the title for this page */}
+            </Helmet>
             <Header />
             <Title title='About Me' />
             <div className="center">
@@ -39,8 +43,8 @@ function AboutMe () {
                         to life together!
                     </p>
                 </div>
-                <Footer />
             </div>
+            <Footer />
         </div>
     );
 }
