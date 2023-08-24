@@ -19,17 +19,17 @@ function Contact () {
                     <div className="form-padding">
                         <div className="form-row">
                             <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" id="name" required />
+                            <input type="text" name="name" id="name" required autoComplete="yes" />
                         </div>
 
                         <div className="form-row">
                             <label htmlFor="email">Email:</label>
-                            <input type="email" name="email" id="email" required />
+                            <input type="email" name="email" id="email" required autoComplete="yes" />
                         </div>
 
                         <div className="form-row">
                             <label htmlFor="message">Message:</label>
-                            <textarea name="message" id="message" required></textarea>
+                            <textarea name="message" id="message" required autoComplete="off"></textarea>
                         </div>
 
                         <button type="submit">Send</button>
