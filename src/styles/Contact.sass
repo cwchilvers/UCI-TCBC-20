@@ -1,0 +1,41 @@
+@import "_variables.sass"
+
+form
+    border: 4px double $blue
+    width: 350px
+
+.form-row
+    display: flex
+    flex-direction: row
+    padding: 10px
+
+label
+    width: 70px
+    display: inline-block
+
+input
+    width: 220px
+    border: 2px solid $blue
+
+textarea
+    width: 220px
+    height: 200px
+    resize: none
+    border: 2px solid $blue
+
+button
+    width: 100px
+    height: 30px
+    border: 2px solid $blue
+    background-color: $blue
+    color: #fff
+    font-size: 16px
+    cursor: pointer
+    font-family: 'Univers'
+
+    &:hover
+        background-color: #fff
+        color: $blue
+
+.form-padding
+    padding: 20px
