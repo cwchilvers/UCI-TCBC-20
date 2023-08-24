@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import '../styles/Contact.sass';
+import '../styles/pages/Contact.sass';
 import icon from '../assets/images/email.png';
 import Header from "../components/Header";
 import Title from "../components/Title";

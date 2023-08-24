@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import "../styles/AboutMe.sass";
+import "../styles/pages/AboutMe.sass";
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Footer from "../components/Footer";

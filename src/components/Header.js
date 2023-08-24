@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/_header.sass";
+import "../styles/components/_header.sass";
 import computerIcon from "../assets/images/computer.png";
 
 function Header () {
