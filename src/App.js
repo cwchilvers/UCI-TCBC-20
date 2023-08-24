@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <HelmetProvider> {/* Wrap your app with HelmetProvider */}
+    <HelmetProvider>
       <div className="react-portfolio-site">
         <Routes>
           <Route path="/" element={<AboutMe />} />

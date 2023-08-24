@@ -7,7 +7,7 @@ function NotFound () {
     return (
         <div className="not-found">
             <Helmet>
-                <title>John Doe | 404</title> {/* Set the title for this page */}
+                <title>John Doe | 404</title>
             </Helmet>
             <Header />
             <h1 className="error">Error 404: Page Not Found</h1>

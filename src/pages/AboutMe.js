@@ -4,16 +4,17 @@ import "../styles/AboutMe.sass";
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
+import icon from '../assets/images/help.png';
 import johnDoe from "../assets/images/john-doe.jpeg";
 
 function AboutMe () {
     return (
         <div className="about-me">
             <Helmet>
-                <title>John Doe | About Me</title> {/* Set the title for this page */}
+                <title>John Doe | About Me</title>
             </Helmet>
             <Header />
-            <Title title='About Me' />
+            <Title title='About Me' icon={icon} />
             <div className="center">
                 <img src={johnDoe} alt="John Doe" />
                 <div className="about-me-text">
