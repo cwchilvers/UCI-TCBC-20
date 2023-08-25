@@ -5,7 +5,7 @@ import icon from '../assets/images/folder.png';
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
-import PortfolioItem from "../components/PortfolioItem";
+import Projects from "../components/Projects";
 
 function Portfolio () {
     const projectNames = [
@@ -29,7 +29,7 @@ function Portfolio () {
             <div className="center">
                 <div className="portfolio-container">
                     {projectNames.map((projectName, index) => (
-                        <PortfolioItem key={index} projectName={projectName} />
+                        <Projects key={index} projectName={projectName} />
                     ))}
                 </div>
             </div>
