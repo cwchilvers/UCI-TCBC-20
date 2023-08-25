@@ -20,6 +20,12 @@ a
     padding-bottom: 20px
 
     .title-box
+        position: absolute
+        top: -32px
+        left: 25%
+        transform: translateX(-50%)
+        z-index: 2
+        width: 270px
         display: flex
         align-items: center
         justify-content: center
@@ -27,12 +33,6 @@ a
         font-family: 'Template Gothic'
         background-color: $blue
         color: $black
-        width: 270px
-        position: absolute
-        top: -32px
-        left: 25%
-        transform: translateX(-50%)
-        z-index: 2
         padding: 10px
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
 
@@ -59,3 +59,8 @@ body::-webkit-scrollbar
 
 body::-webkit-scrollbar-thumb
     background-color: transparent
+
+@media (max-width: 820px)
+    .title
+        .title-box
+            left: 50%

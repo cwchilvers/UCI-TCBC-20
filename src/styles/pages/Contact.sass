@@ -1,8 +1,11 @@
 @import "../_variables.sass"
 
 form
-    border: 4px double $blue
     width: 350px
+    border: 4px double $blue
+
+.form-padding
+    padding: 20px
 
 .form-row
     display: flex
@@ -10,8 +13,8 @@ form
     padding: 10px
 
 label
-    width: 70px
     display: inline-block
+    width: 70px
 
 input
     width: 220px
@@ -36,6 +39,3 @@ button
     &:hover
         background-color: #fff
         color: $blue
-
-.form-padding
-    padding: 20px

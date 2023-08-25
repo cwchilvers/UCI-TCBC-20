@@ -5,8 +5,20 @@ import icon from '../assets/images/folder.png';
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
+import PortfolioItem from "../components/PortfolioItem";
 
 function Portfolio () {
+    const projectNames = [
+        "fitness-app",
+        "learning-platform",
+        "personal-blog",
+        "recipe-app",
+        "task-manager",
+        "weather-app",
+        "e-commerce-app",
+        "portfolio-site",
+    ];
+
     return (
         <div className="portfolio">
             <Helmet>
@@ -16,30 +28,9 @@ function Portfolio () {
             <Title title='Portfolio' icon={icon} />
             <div className="center">
                 <div className="portfolio-container">
-                    <div className="portfolio-item">
-                        <h2>Project 1</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 2</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 3</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 4</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 5</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 6</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 7</h2>
-                    </div>
-                    <div className="portfolio-item">
-                        <h2>Project 8</h2>
-                    </div>
+                    {projectNames.map((projectName, index) => (
+                        <PortfolioItem key={index} projectName={projectName} />
+                    ))}
                 </div>
             </div>
             <Footer />
