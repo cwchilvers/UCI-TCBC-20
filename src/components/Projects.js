@@ -9,6 +9,7 @@ function PortfolioItem({ projectName }) {
                     className="github"
                     href='https://www.example.com'
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <img src={require('../assets/images/github.png')} alt="github" />
                 </a>
@@ -16,6 +17,7 @@ function PortfolioItem({ projectName }) {
                     className="live"
                     href='https://www.example.com'
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <img src={require('../assets/images/globe.png')} alt="live" />
                 </a>

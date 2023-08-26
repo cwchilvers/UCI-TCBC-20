@@ -7,6 +7,7 @@ function Footer () {
             <a
                 href='https://www.example.com'
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <img 
                     className="footerLinks"
@@ -17,6 +18,7 @@ function Footer () {
             <a
                 href='https://www.example.com'
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <img
                     className="footerLinks"
@@ -27,6 +29,7 @@ function Footer () {
             <a 
                 href='https://www.example.com'
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <img
                     className="footerLinks"
