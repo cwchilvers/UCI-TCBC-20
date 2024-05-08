@@ -39,6 +39,7 @@ npm start
 4. Open the app in a browser at `http://localhost:3000`
 
 ## Technologies Used
+* JavaScript
 * [React.js](https://reactjs.org/)
 * [SASS](https://sass-lang.com/)
 
